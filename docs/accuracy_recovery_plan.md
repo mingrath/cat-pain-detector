@@ -180,7 +180,7 @@ If gates do not pass, launch as an “FGS learning/checklist demo” rather than
 - [x] Baseline validation now writes a Markdown review report next to the metrics JSON.
 - [x] CatFLW sanity/crop script added: `scripts/catflw_sanity_and_crops.py`.
 - [x] Manual review table added: `docs/manual_review_official_examples.md`.
-- [ ] Crop-variant Gemma 4 ablations still need to be run and compared.
+- [x] Crop-variant Gemma 4 ablations were run; tight_content was least bad but still failed recall/safety gates.
 
 ## Non-Negotiable Rule
 

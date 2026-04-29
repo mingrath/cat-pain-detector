@@ -172,4 +172,4 @@ Current recovery execution status:
 - [x] Add baseline Markdown error-review report generation.
 - [x] Add CatFLW landmark/bbox sanity and padded face-crop generator.
 - [x] Add manual review table for the three official FGS educational examples.
-- [ ] Run crop-variant Gemma 4 ablations and choose the best variant by metrics.
+- [x] Run crop-variant Gemma 4 ablations and choose the best variant by metrics. Result: tight_content was least bad, but recall stayed 0.0, so public scoring remains blocked.

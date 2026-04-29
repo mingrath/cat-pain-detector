@@ -27,6 +27,8 @@ metrics/*.json
 metrics/*.log
 !metrics/gemma4_official_examples_smoke_metrics_py312.json
 !metrics/gemma4_official_examples_prompt_v3_metrics_py312.json
+!metrics/gemma4_official_variants_metrics_py312.json
+!metrics/gemma4_official_variants_metrics_py312.review.md
 
 # Raw research pulls/logs can include bulky or third-party content; keep summaries.
 research/firecrawl/
