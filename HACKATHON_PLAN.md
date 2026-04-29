@@ -158,3 +158,10 @@ Hackathon checks:
 For the first working milestone, build a **validation-first** Gemma 4 multimodal baseline before the polished demo. It should take labeled cat images, output FGS action-unit scores, compare predictions to labels, and produce an accuracy report.
 
 Then wrap the validated baseline in a Gradio demo that analyzes one uploaded image, scores visible FGS cues, explains uncertainty, and recommends whether the owner should monitor or contact a veterinarian. This is more credible for judging than a UI-only demo.
+
+## Accuracy Recovery Plan
+
+Live demo testing showed the current pain score is not close enough to trust.
+Before final submission, follow `docs/accuracy_recovery_plan.md` and treat scoring
+as under recalibration. The app should not present a numeric pain score as useful
+until the validation gates in that plan pass.
