@@ -81,11 +81,18 @@ quality/visibility report.
 
 Goal: stop all-zero collapse by anchoring the model to the FGS rubric.
 
+Current data reality: we **do not** have raw FGS-labeled training data yet. The
+local CatFLW dataset has landmarks only, not pain/FGS labels. The three official
+FGS educational examples are too few and have unclear reuse rights, so they are
+only suitable for smoke testing and prompt sanity checks — not training,
+fine-tuning, or publishable validation.
+
 Priority order:
 
 1. Use author-provided FGS-labeled images if permission is granted.
 2. Use any license-safe FGS-labeled public images if found.
 3. As a fallback, create a tiny pilot set with manual labels and clear caveats.
+   This can support UI/debugging only; it cannot support strong accuracy claims.
 
 Prompt changes:
 
@@ -96,6 +103,12 @@ Prompt changes:
 - Add explicit “do not default uncertain visible cues to 0” instruction.
 
 Deliverable: prompt variants compared by metrics, not by visual impression.
+
+Blocked until one of these is true:
+
+- author-provided FGS-labeled images arrive,
+- a license-safe public FGS-labeled dataset is found,
+- or we explicitly downgrade the project to an FGS education/checklist demo.
 
 ## Phase 4 — Split Detection From Scoring
 
@@ -119,7 +132,11 @@ crop+quality gate vs crop+few-shot.
 
 Goal: improve scoring if prompt/crop calibration is still weak.
 
-Only proceed if dataset license/permission allows training.
+Training status: blocked. We cannot train or fine-tune on CatFLW for pain
+scoring because it has no FGS labels, and we cannot train on the official FGS
+website examples because there are only three and reuse rights are unclear.
+
+Only proceed if dataset license/permission explicitly allows training.
 
 Options:
 
