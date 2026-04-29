@@ -34,12 +34,17 @@ testing, but it is not a stable hackathon deployment.
 Current blocker: no Hugging Face token is configured in this environment, so the
 stable public Space cannot be created automatically from here.
 
-## Current temporary public demo
+## Temporary public demo status
 
-A temporary Gradio share demo is running with the local Gemma 4 Transformers
+A temporary Gradio share demo was tested with the local Gemma 4 Transformers
 backend:
 
 `https://0aa7a9e29bfaf3de84.gradio.live`
+
+It has been taken offline because live testing showed the score was not close
+enough. Do not relaunch a public scoring demo until `docs/accuracy_recovery_plan.md`
+gates pass. If a temporary demo is needed for UI review, run it in checklist mode
+with numeric scoring hidden.
 
 Launch command:
 

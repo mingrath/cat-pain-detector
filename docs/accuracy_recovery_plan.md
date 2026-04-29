@@ -174,6 +174,14 @@ If gates do not pass, launch as an “FGS learning/checklist demo” rather than
 5. Re-run Gemma 4 on original, tight crop, and padded crop variants.
 6. Choose the best preprocessing/prompt variant using metrics.
 
+## Execution Status
+
+- [x] Numeric score display is hidden by default in the Gradio human-readable report.
+- [x] Baseline validation now writes a Markdown review report next to the metrics JSON.
+- [x] CatFLW sanity/crop script added: `scripts/catflw_sanity_and_crops.py`.
+- [x] Manual review table added: `docs/manual_review_official_examples.md`.
+- [ ] Crop-variant Gemma 4 ablations still need to be run and compared.
+
 ## Non-Negotiable Rule
 
 No Kaggle writeup, video, or live demo may claim the model “detects pain” until

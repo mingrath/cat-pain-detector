@@ -24,6 +24,17 @@ BASELINE_NOTE = (
     "with 3/3 parse success, but under-called pain (normalized MAE 0.50; "
     "rescue-threshold accuracy 0.333). This is not a clinical accuracy claim."
 )
+SCORING_DISABLED_NOTE = (
+    "Numeric FGS scoring is currently under recalibration after live testing showed "
+    "the first Gemma 4 scores were not close enough. Use this screen as an FGS cue "
+    "checklist only; do not use it for pain decisions."
+)
+SHOW_NUMERIC_SCORE = os.environ.get("CAT_PAIN_SHOW_NUMERIC_SCORE", "false").lower() in {
+    "1",
+    "true",
+    "yes",
+    "on",
+}
 
 DEMO_SAMPLE_PATHS = [
     str(path)
@@ -99,10 +110,11 @@ def build_human_report(parsed: dict[str, Any], backend: str) -> str:
         '<div class="report-shell">',
         "<h2>Cat Pain Detector Report</h2>",
         f"<p><strong>Recommendation:</strong> {escape(_recommendation_badge(recommendation))}</p>",
+        f'<div class="vet-next"><strong>Scoring status:</strong> {escape(SCORING_DISABLED_NOTE if not SHOW_NUMERIC_SCORE else "Numeric score display is enabled for internal validation.")}</div>',
         '<div class="metric-grid">',
-        f'<div class="metric-card"><div class="metric-label">FGS total</div><div class="metric-value">{escape(_format_score(parsed.get("total_raw")))} / 10</div></div>',
-        f'<div class="metric-card"><div class="metric-label">Normalized</div><div class="metric-value">{escape(_format_score(total_normalized))}</div></div>',
-        f'<div class="metric-card"><div class="metric-label">Threshold &gt; 0.39</div><div class="metric-value">{escape(_format_score(rescue_positive))}</div></div>',
+        f'<div class="metric-card"><div class="metric-label">FGS total</div><div class="metric-value">{escape(_format_score(parsed.get("total_raw")) + " / 10" if SHOW_NUMERIC_SCORE else "hidden")}</div></div>',
+        f'<div class="metric-card"><div class="metric-label">Normalized</div><div class="metric-value">{escape(_format_score(total_normalized) if SHOW_NUMERIC_SCORE else "hidden")}</div></div>',
+        f'<div class="metric-card"><div class="metric-label">Threshold &gt; 0.39</div><div class="metric-value">{escape(_format_score(rescue_positive) if SHOW_NUMERIC_SCORE else "hidden")}</div></div>',
         f'<div class="metric-card"><div class="metric-label">Uncertainty</div><div class="metric-value">{escape(str(parsed.get("uncertainty", "unknown")))}</div></div>',
         "</div>",
         f"<p><strong>Model backend:</strong> <code>{escape(backend)}</code></p>",
@@ -162,6 +174,7 @@ def analyze_image(image):
             "metadata": result.metadata,
             "raw_text": result.raw_text,
             "validation_note": BASELINE_NOTE,
+            "scoring_disabled_note": None if SHOW_NUMERIC_SCORE else SCORING_DISABLED_NOTE,
         }
         return build_human_report(parsed, result.backend), structured
     except Exception as exc:  # noqa: BLE001 - show safe UI error without hiding debug context.
@@ -170,6 +183,7 @@ def analyze_image(image):
             "message": str(exc),
             "disclaimer": STANDARD_DISCLAIMER,
             "validation_note": BASELINE_NOTE,
+            "scoring_disabled_note": SCORING_DISABLED_NOTE,
         }
         return (
             "The analysis could not be completed. Try a clearer front-facing image, "
@@ -205,6 +219,7 @@ def build_app() -> gr.Blocks:
                       This is triage support only. If the cat seems distressed, injured,
                       unusually quiet, not eating, hiding, limping, struggling to breathe,
                       or suddenly changed in behavior, contact a veterinarian promptly.
+                      <br/><br/><strong>Scoring disabled:</strong> {SCORING_DISABLED_NOTE}
                     </div>
                     <br/>
                     <div class="validation-card">
