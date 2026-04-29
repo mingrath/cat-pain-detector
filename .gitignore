@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+.venv*/
+venv/
+
+# Local secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Large/private data and models
+data/raw/
+data/private/
+data/processed/
+papers/
+models/
+checkpoints/
+outputs/
+metrics/*.jsonl
+metrics/*.json
+metrics/*.log
+!metrics/gemma4_official_examples_smoke_metrics_py312.json
+!metrics/gemma4_official_examples_prompt_v3_metrics_py312.json
+
+# Raw research pulls/logs can include bulky or third-party content; keep summaries.
+research/firecrawl/
+research/kaggle/output-gemma4-baseline/
+research/kaggle/pulled/
+research/tavily/*.json
+
+# Keep directory docs/placeholders if added later
+!data/README.md
+!metrics/.gitkeep
+!metrics/baseline_status.json
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+

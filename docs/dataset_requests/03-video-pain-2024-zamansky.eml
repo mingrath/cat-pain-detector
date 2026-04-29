@@ -1,0 +1,13 @@
+To: annazam@is.haifa.ac.il
+Subject: Request for validation subset: cat pain recognition video/landmark data
+
+Dear Prof. Zamansky,
+
+I am building a non-commercial Kaggle Gemma 4 Good Hackathon prototype for explainable cat pain triage using Feline Grimace Scale concepts. I found your Scientific Reports paper on automated video-based pain recognition using cat facial landmarks highly relevant.
+
+Would it be possible to access a validation subset, derived features, labels, or split protocol from the Finka/TiHo Cat Pain datasets for validation-only use? We can follow any restrictions, not redistribute data, cite the paper, and report only aggregate metrics.
+
+Our goal is to avoid unsupported demo claims by measuring total score error, binary pain classification F1, and failure modes.
+
+Thank you,
+[Your name]

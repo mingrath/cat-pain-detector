@@ -1,0 +1,13 @@
+To: pmortens@cityu.edu.hk
+Subject: Request for validation access to FGS-labeled cat facial image data
+
+Dear Prof. Steagall,
+
+I am developing a non-commercial hackathon prototype that uses Gemma 4 multimodal reasoning to estimate Feline Grimace Scale action-unit scores from cat facial images. The project is intended as triage support only, not diagnosis.
+
+I read your Scientific Reports paper on automated FGS prediction with smartphone applicability. Would you consider sharing a validation subset of the FGS-labeled image data, or aggregate benchmark split details, so we can evaluate our model responsibly against expert labels?
+
+We can keep the data private, cite your work, avoid redistribution, and report only aggregate validation metrics such as FGS score error, rescue-threshold F1, AUROC, and per-AU agreement.
+
+Thank you,
+[Your name]

@@ -1,0 +1,17 @@
+gradio>=6.0
+pillow>=10.0
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+opencv-python>=4.9
+matplotlib>=3.8
+jsonschema>=4.22
+python-dotenv>=1.0
+
+# Gemma 4 runner dependencies. Use Python 3.12+ for current Gemma 4 classes.
+torch>=2.11
+torchvision>=0.26
+transformers>=5.7
+accelerate>=1.13
+kagglehub>=1.0
+

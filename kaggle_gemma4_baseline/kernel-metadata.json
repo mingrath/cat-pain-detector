@@ -1,0 +1,16 @@
+{
+  "id": "mingrathmekavichai/cat-pain-gemma4-official-examples-baseline",
+  "title": "Cat Pain Gemma4 Official Examples Baseline",
+  "code_file": "cat_pain_gemma4_baseline.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": ["gemma4", "cat", "pain", "baseline"],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": ["google/gemma-4/Transformers/gemma-4-e2b-it/1"]
+}

@@ -1,0 +1,22 @@
+Next Page Token = CfDJ8OqP5ZkTT9ZGj66XXRbxXyBLJCVGA5FHv355C1JP1W319bgUdz3Ikh16BABSYcWxTy-l7AQVbhqw46qtyUaUyRM
+id,ref,title,subtitle,author
+624400,google/gemma-4,Gemma 4,"Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models.",Google
+630528,keras/gemma4,Gemma 4,"Gemma 4 models are multimodal, handling text, image and video input (with audio supported on small models) and generating text output.",Keras
+3301,google/gemma,Gemma,"Gemma is a family of lightweight, open models built from the research and technology that Google used to create the Gemini models.",Google
+279036,keras/gemma3,Gemma 3,"Keras implementation of the Gemma3 model. Can run on JAX, TensorFlow and PyTorch.",Keras
+222398,google/gemma-3,Gemma 3,"Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models.",Google
+76277,google/gemma-2,Gemma 2,"Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models.",Google
+231665,mistral-ai/mistral-small-24b,Mistral Small 24B,"Mistral Small 24B sets a new benchmark in the ""small"" Large Language Models category below 70B, boasting 24B parameters and achieving state-of-the-art capabilities comparable to larger models!",Mistral AI
+21172,google/recurrentgemma,RecurrentGemma,An open model with a fixed-size state for fast inference on long sequences,Google
+529704,google/functiongemma,FunctionGemma,"FunctionGemma is a lightweight, open model from Google, built as a foundation for creating your own specialized function calling models.",Google
+480034,google/translategemma,TranslateGemma,"TranslateGemma is a family of lightweight, state-of-the-art open translation models from Google, based on the Gemma 3 family of models.",Google
+378977,google/t5gemma,T5Gemma,"T5Gemma is a family of encoder-decoder large language models, developed by adapting pretrained decoder-only Gemma into encoder-decoder.",Google
+79606,qwen-lm/qwen2,Qwen2,"Qwen2 is the new series of Qwen large language models. Pretrained and instruction-tuned models of 5 sizes, including Qwen2-0.5B, Qwen2-1.5B, Qwen2-7B, Qwen2-57B-A14B, and Qwen2-72B.",QwenLM
+88492,google/shieldgemma,ShieldGemma,"ShieldGemma is a series of safety content moderation models built on Gemma 2 that target four harm categories: sexually explicit, dangerous content, hate and harassment.",Google
+480416,keras/medgemma,MedGemma,Collection of Gemma 3 variants for performance on medical text and image comprehension to accelerate building healthcare-based AI applications.,Keras
+483825,google/t5gemma-2,T5Gemma 2,"T5Gemma 2 is the next evolution of T5Gemma, adapted based on Gemma 3, featuring the first multi-modal and long-context encoder-decoder models.",Google
+96696,nikhiltumbde/gemma-2-9b-hf,gemma-2-9b-hf,gemma 2 9B variant from huggingface,Nikhil Tumbde
+216069,umerhaddii/gemma,Alpaca Gemma,Alpaca Gemma is Fine-tuned variant of Gemma 2 base model,Umer Haddii
+637122,bhavkaranchahal/gemma-4-26b-a4b-it-mlx,Gemma 4 26B-A4B Instruct MLX 4-bit,MLX 4-bit mirror of mlx-community/gemma-4-26b-a4b-it-4bit,Bhavkaran Chahal
+468196,keras/mobilenetv5,MobileNetV5,"A lightweight, high-throughput vision encoder used as the visual backbone of Google’s Gemma 3n model.",Keras
+121694,mandu5/financial-advisor,Financial Advisor,Financial Advisor for Personalized Investment Strategies,mandu

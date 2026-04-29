@@ -1,0 +1,17 @@
+{
+  "status": "blocked",
+  "step": 9,
+  "reason": "No real FGS-labeled clinical validation image set is available locally yet, so a true Gemma 4 baseline with publishable accuracy metrics cannot be run honestly.",
+  "available_validation_related_data": {
+    "catflw": "Downloaded locally for landmark/localization validation only; no pain labels.",
+    "fgs_official_examples": "Three official FGS website educational examples downloaded locally with labels all-0, all-1, all-2; smoke/calibration only, not a clinical validation set."
+  },
+  "ready_to_run_when_labels_arrive": {
+    "script": "scripts/run_baseline_validation.py",
+    "manifest_template": "docs/validation_manifest_example.csv",
+    "example_command": "CAT_PAIN_RUNNER=transformers PYTHONPATH=src python scripts/run_baseline_validation.py --manifest data/private/fgs_validation_manifest.csv --output metrics/gemma4_baseline_metrics.json",
+    "official_examples_smoke_command": "CAT_PAIN_RUNNER=transformers PYTHONPATH=src python scripts/run_baseline_validation.py --manifest data/fgs_official_examples_manifest.csv --output metrics/gemma4_official_examples_smoke_metrics.json"
+  },
+  "do_not_claim_accuracy_yet": true
+}
+

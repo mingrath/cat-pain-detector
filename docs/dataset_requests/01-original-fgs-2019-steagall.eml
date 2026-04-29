@@ -1,0 +1,15 @@
+To: paulo.steagall@umontreal.ca
+Subject: Research request: FGS-labeled cat image/video data for validation-only AI pain assessment project
+
+Dear Prof. Steagall,
+
+I am building a non-commercial research prototype for the Kaggle Gemma 4 Good Hackathon focused on explainable, safety-framed feline acute pain triage using the Feline Grimace Scale. I would like to validate the prototype against expert FGS labels rather than make unsupported accuracy claims.
+
+Would it be possible to access the FGS-labeled images/video frames or a validation subset from your 2019 Scientific Reports FGS validation study for validation-only use? We would cite the paper, follow any license/ethics constraints, avoid redistributing the data unless permitted, and report aggregate metrics only.
+
+The planned validation metrics are total FGS score MAE/RMSE, rescue-analgesia threshold classification accuracy/F1, per-action-unit agreement where labels are available, and uncertainty/failure-mode analysis.
+
+Thank you for considering this request.
+
+Best regards,
+[Your name]

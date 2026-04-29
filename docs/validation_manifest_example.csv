@@ -1,0 +1,2 @@
+image_path,ear_position,orbital_tightening,muzzle_tension,whiskers_change,head_position,total_raw,total_normalized,rescue_threshold_positive,source,license,notes
+data/private/fgs/example.jpg,0,1,1,0,0,2,0.2,false,placeholder,restricted,"example row only; do not use for metrics"

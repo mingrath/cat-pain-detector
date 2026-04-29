@@ -1,0 +1,4 @@
+image_path,source_dataset,license,use,width,height
+data/demo_samples/catflw/CAT_01_00000147_028.png,georgemartvel/catflw,CC BY-NC 4.0,demo upload example only; no pain or FGS accuracy label,657,1024
+data/demo_samples/catflw/00000329_024.png,georgemartvel/catflw,CC BY-NC 4.0,demo upload example only; no pain or FGS accuracy label,500,375
+data/demo_samples/catflw/00000422_026.png,georgemartvel/catflw,CC BY-NC 4.0,demo upload example only; no pain or FGS accuracy label,500,370

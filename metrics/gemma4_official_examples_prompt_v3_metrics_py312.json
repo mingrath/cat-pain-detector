@@ -1,0 +1,129 @@
+{
+  "created_at": "2026-04-29T07:23:56.263827+00:00",
+  "manifest": "/Users/mingrath/projects/cat-pain-detector/data/fgs_official_examples_manifest.csv",
+  "result_count": 3,
+  "failure_count": 0,
+  "metrics": {
+    "n_examples": 3,
+    "threshold": 0.39,
+    "total_score": {
+      "count": 3,
+      "coverage": 1.0,
+      "mae_normalized": 0.5,
+      "rmse_normalized": 0.6454972243679028
+    },
+    "rescue_threshold": {
+      "count": 3,
+      "accuracy": 0.3333333333333333,
+      "precision": null,
+      "recall_sensitivity": 0.0,
+      "specificity": 1.0,
+      "f1": null,
+      "confusion_matrix": {
+        "tn": 1,
+        "fp": 0,
+        "fn": 2,
+        "tp": 0
+      }
+    },
+    "per_action_unit": {
+      "ear_position": {
+        "count": 3,
+        "coverage": 1.0,
+        "accuracy": 0.3333333333333333,
+        "mae": 1.0
+      },
+      "orbital_tightening": {
+        "count": 3,
+        "coverage": 1.0,
+        "accuracy": 0.3333333333333333,
+        "mae": 1.0
+      },
+      "muzzle_tension": {
+        "count": 3,
+        "coverage": 1.0,
+        "accuracy": 0.3333333333333333,
+        "mae": 1.0
+      },
+      "whiskers_change": {
+        "count": 3,
+        "coverage": 1.0,
+        "accuracy": 0.3333333333333333,
+        "mae": 1.0
+      },
+      "head_position": {
+        "count": 3,
+        "coverage": 1.0,
+        "accuracy": 0.3333333333333333,
+        "mae": 1.0
+      }
+    },
+    "notes": [
+      "Metrics are valid only for the stated validation manifest.",
+      "Rows where the model could not compute a total score count against coverage."
+    ]
+  },
+  "rows": [
+    {
+      "image_path": "/Users/mingrath/projects/cat-pain-detector/data/raw/fgs_official_examples/cat_only/fgs_official_au0_no_or_mild_pain_cat_only.png",
+      "backend": "transformers",
+      "true_total_raw": 0,
+      "true_total_normalized": 0.0,
+      "true_rescue_threshold_positive": false,
+      "pred_total_raw": 0,
+      "pred_total_normalized": 0.0,
+      "pred_rescue_threshold_positive": false,
+      "true_ear_position": 0,
+      "pred_ear_position": 0,
+      "true_orbital_tightening": 0,
+      "pred_orbital_tightening": 0,
+      "true_muzzle_tension": 0,
+      "pred_muzzle_tension": 0,
+      "true_whiskers_change": 0,
+      "pred_whiskers_change": 0,
+      "true_head_position": 0,
+      "pred_head_position": 0
+    },
+    {
+      "image_path": "/Users/mingrath/projects/cat-pain-detector/data/raw/fgs_official_examples/cat_only/fgs_official_au1_mild_to_moderate_pain_cat_only.png",
+      "backend": "transformers",
+      "true_total_raw": 5,
+      "true_total_normalized": 0.5,
+      "true_rescue_threshold_positive": true,
+      "pred_total_raw": 0,
+      "pred_total_normalized": 0.0,
+      "pred_rescue_threshold_positive": false,
+      "true_ear_position": 1,
+      "pred_ear_position": 0,
+      "true_orbital_tightening": 1,
+      "pred_orbital_tightening": 0,
+      "true_muzzle_tension": 1,
+      "pred_muzzle_tension": 0,
+      "true_whiskers_change": 1,
+      "pred_whiskers_change": 0,
+      "true_head_position": 1,
+      "pred_head_position": 0
+    },
+    {
+      "image_path": "/Users/mingrath/projects/cat-pain-detector/data/raw/fgs_official_examples/cat_only/fgs_official_au2_moderate_to_severe_pain_cat_only.png",
+      "backend": "transformers",
+      "true_total_raw": 10,
+      "true_total_normalized": 1.0,
+      "true_rescue_threshold_positive": true,
+      "pred_total_raw": 0,
+      "pred_total_normalized": 0.0,
+      "pred_rescue_threshold_positive": false,
+      "true_ear_position": 2,
+      "pred_ear_position": 0,
+      "true_orbital_tightening": 2,
+      "pred_orbital_tightening": 0,
+      "true_muzzle_tension": 2,
+      "pred_muzzle_tension": 0,
+      "true_whiskers_change": 2,
+      "pred_whiskers_change": 0,
+      "true_head_position": 2,
+      "pred_head_position": 0
+    }
+  ],
+  "failures": []
+}

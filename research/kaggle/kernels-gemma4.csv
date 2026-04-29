@@ -1,0 +1,21 @@
+ref,title,author,lastRunTime,totalVotes
+emiz6413/inference-gemma-2-9b-4-bit-qlora,[Inference] Gemma-2 9b 4-bit QLoRA,Eisuke Mizutani,2024-07-11 07:12:33.113000,1351
+emiz6413/training-gemma-2-9b-4-bit-qlora-fine-tuning,[Training] Gemma-2 9b 4-bit QLoRA fine-tuning,Eisuke Mizutani,2024-07-11 07:22:03.267000,1001
+mbmmurad/gemma-2-9b-4-bit-qlora-lb-0-63,Gemma-2 9b 4-bit QLoRA - LB 0.63,Md Boktiar Mahbub Murad,2024-11-26 20:33:33.067000,452
+takaito/wsdm-cup-lb-0-684-only-gemma-2-9b-4-bit,[WSDM Cup] LB:0.684 Only Gemma-2 9b 4-bit,takaito,2024-12-28 11:23:32.243000,427
+qianxinyu/wsdm-cup-lb-0-684-only-gemma-2-9b-4-bit,[WSDM Cup] LB:0.684 Only Gemma-2 9b 4-bit,DaDaDa,2025-01-14 17:08:25.743000,206
+jeanjfernandes/introduction-to-gemma-4,Introduction to Gemma 4,Jean Fernandes,2026-04-05 13:07:59,64
+nilaychauhan/fine-tune-gemma-models-in-keras-using-lora,Fine-tune Gemma models in Keras using LoRA,Nilay Chauhan,2024-02-21 11:41:26,4846
+danielhanchen/gemma4-31b-unsloth,Gemma4-31B-Unsloth,Unsloth AI,2026-04-09 14:46:15,295
+markishere/day-4-fine-tuning-a-custom-model,Day 4 - Fine tuning a custom model,Mark McD,2025-04-02 08:15:24.557000,24599
+seifamgad/training-gemma-2-9b-4-bit-qlora-fine-tuning-fixed,[Training]Gemma-2 9b 4-bit QLoRA fine-tuning:Fixed,Seif Amgad,2024-12-02 11:35:48.537000,149
+wlifferth/starter-notebook-generating-more-data-with-gemma,Starter Notebook: Generating More Data With Gemma,William Lifferth,2024-02-27 00:01:33,1819
+unlockbulk/ltx-2-3-22b-kaggle-p100-by-aiquest,ltx_2_3_22b_kaggle_p100_by_aiquest,Unlock Bulk,2026-04-23 19:20:52,1412
+nilaychauhan/keras-gemma-distributed-finetuning-and-inference,Keras Gemma distributed finetuning and inference,Nilay Chauhan,2024-06-12 19:31:58.837000,1568
+gpreda/test-gemma-4-e2b-on-cpu,Test Gemma 4:E2B on CPU,Gabriel Preda,2026-04-11 11:34:35.597000,47
+duohanwang/inference-gemma-2-9b-4-bit-qlora-6b251d,[Inference] Gemma-2 9b 4-bit QLoRA 6b251d,duohanwang,2025-05-15 08:32:32,52
+djc020623nzh/wsdm-cup-lb-0-684-only-gemma-2-9b-4-bit,[WSDM Cup] LB:0.684 Only Gemma-2 9b 4-bit,DJC020623NZH,2025-01-26 02:32:11.637000,85
+awsaf49/aimo-kerasnlp-starter,AIMO: KerasNLP Starter,Awsaf,2024-04-19 17:40:42.493000,1101
+danielhanchen/gemma-3n-4b-multimodal-finetuning-inference,Gemma 3N 4B Multimodal finetuning + inference,Unsloth AI,2025-07-30 10:36:13.977000,775
+itahiro/perplexity-baseline-phi-2-gemma-7b-it,"Perplexity Baseline [Phi-2,Gemma-7b-it]",Renoir,2024-04-18 06:05:40.917000,1005
+dheerajkannaujiya/start-withzero-google-gemma-4-e4b-it,start_withZero_google/gemma-4-e4b-it,Ᏸ𐍂Ꭷ,2026-04-02 17:07:04.947000,40
