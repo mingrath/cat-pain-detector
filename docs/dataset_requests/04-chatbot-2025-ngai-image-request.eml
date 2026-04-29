@@ -1,0 +1,17 @@
+To: [corresponding author email]
+Subject: Request for 50 cat images corresponding to public FGS gold-standard supplement
+
+Dear Dr. Ngai and colleagues,
+
+I am building a validation-first, non-diagnostic Feline Grimace Scale research prototype for the Kaggle Gemma 4 Good Hackathon. The project is explicitly framed as triage support / education only, not veterinary diagnosis.
+
+I found your Scientific Reports article, “Chatbot assessment of acute pain in cats using the Feline Grimace Scale: comparative study” (DOI: 10.1038/s41598-025-27404-z), and its Supplementary Material 1 spreadsheet with 50 image IDs and expert gold-standard FGS ratios.
+
+Would you be willing to share the corresponding 50 cat images, or provide guidance on whether/how they can be accessed for non-commercial research validation? The public spreadsheet is very useful, but without the matching images I cannot run an image-based validation.
+
+I would cite your article, respect any data-use conditions, avoid redistribution if required, and report limitations clearly. I am especially interested in using the images only to validate whether a multimodal model can reproduce FGS cue estimates and to document failure modes.
+
+Thank you for considering this request.
+
+Best regards,
+Mingrath Mekavichai

@@ -41,6 +41,17 @@ Demo subset:
 - Use: Gradio upload examples only
 - Not valid for: pain-score accuracy or FGS clinical validation
 
+
+### Ngai et al. 2025 Chatbot FGS Supplement
+
+- Article DOI: `10.1038/s41598-025-27404-z`
+- Local raw supplement path: `data/public_fgs_chatbot_2025/raw/` (gitignored)
+- Extracted label-only CSV: `data/public_fgs_chatbot_2025/expert_gs_total_labels.csv`
+- Count: 50 image IDs with expert gold-standard total FGS ratios
+- What is missing: raw cat images and per-action-unit expert labels
+- Use in this project: author follow-up/request matching; not directly usable as image validation until corresponding photos are obtained
+- Request draft: `docs/dataset_requests/04-chatbot-2025-ngai-image-request.eml`
+
 ## FGS-Labeled Datasets To Request
 
 ### 2019 Original FGS Validation Study

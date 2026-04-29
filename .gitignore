@@ -18,6 +18,7 @@ venv/
 data/raw/
 data/private/
 data/processed/
+data/public_fgs_chatbot_2025/raw/
 papers/
 models/
 checkpoints/
