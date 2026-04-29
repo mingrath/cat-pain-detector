@@ -1,0 +1,19 @@
+To: annazam@is.haifa.ac.il, annazam@gmail.com
+Subject: Request for access to Automated Recognition of Pain in Cats image dataset
+
+Dear Professor Zamansky and colleagues,
+
+I am building a validation-first, non-diagnostic cat pain assessment prototype for the Kaggle Gemma 4 Good Hackathon. The project is explicitly framed as triage support / education only, not veterinary diagnosis.
+
+I read your Scientific Reports article “Automated recognition of pain in cats” (DOI: 10.1038/s41598-022-13348-1). The article describes a final balanced dataset of 464 cat facial images with Pain / No Pain labels and landmark annotations, and references a GitLab repository:
+
+https://gitlab.com/is-annazam/automated-recognition-of-pain-in-cats
+
+When I tried to access it, GitLab redirected to sign-in and git/archive access returned 403. Would you be willing to share access instructions, or provide the dataset under any non-commercial research conditions you require?
+
+I would cite your work, respect any redistribution restrictions, and use the data only to validate failure modes and calibration of an image-based FGS/pain-cue checklist. I will not make veterinary diagnosis claims.
+
+Thank you for considering this request.
+
+Best regards,
+Mingrath Mekavichai

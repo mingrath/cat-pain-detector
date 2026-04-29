@@ -42,6 +42,17 @@ Demo subset:
 - Not valid for: pain-score accuracy or FGS clinical validation
 
 
+
+### Feighelstein et al. 2022 Automated Recognition of Pain in Cats
+
+- Article DOI: `10.1038/s41598-022-13348-1`
+- Reported data: 464 cat facial images from 26 cats, balanced 232 `Pain` / 232 `No Pain`, with 48 facial landmarks
+- Article-referenced repository: `https://gitlab.com/is-annazam/automated-recognition-of-pain-in-cats`
+- Current access status: GitLab sign-in/403 from this environment; not directly downloaded
+- Label type: binary pain/no-pain, not full FGS per-action-unit labels
+- Use if obtained: binary pain validation and landmark/crop pipeline evaluation
+- Request draft: `docs/dataset_requests/05-automated-recognition-2022-gitlab-access.eml`
+
 ### Ngai et al. 2025 Chatbot FGS Supplement
 
 - Article DOI: `10.1038/s41598-025-27404-z`

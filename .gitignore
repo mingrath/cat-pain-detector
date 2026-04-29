@@ -47,3 +47,6 @@ research/tavily/*.json
 .idea/
 .vscode/
 
+
+# Firecrawl local cache
+.firecrawl/
