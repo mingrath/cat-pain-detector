@@ -32,7 +32,32 @@ testing, but it is not a stable hackathon deployment.
    mode and point it to a GPU inference endpoint.
 
 Current blocker: no Hugging Face token is configured in this environment, so the
-public Space cannot be created automatically from here.
+stable public Space cannot be created automatically from here.
+
+## Current temporary public demo
+
+A temporary Gradio share demo is running with the local Gemma 4 Transformers
+backend:
+
+`https://0aa7a9e29bfaf3de84.gradio.live`
+
+Launch command:
+
+```bash
+PYTHONUNBUFFERED=1 \
+CAT_PAIN_RUNNER=transformers \
+GEMMA_MODEL_PATH=/Users/mingrath/.cache/kagglehub/models/google/gemma-4/transformers/gemma-4-e2b-it/1 \
+GEMMA_MAX_NEW_TOKENS=512 \
+GEMMA_ENABLE_THINKING=false \
+GRADIO_SHARE=true \
+GRADIO_SERVER_PORT=7860 \
+PYTHONPATH=src \
+.venv-gemma4/bin/python -u app.py
+```
+
+Important: Gradio share links expire in about 1 week and depend on this local
+machine staying online. Replace this with a stable Hugging Face Space or hosted
+endpoint before final Kaggle submission.
 
 ## Kaggle fallback
 

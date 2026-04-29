@@ -23,6 +23,11 @@ Full safety language: `docs/product_scope_and_safety.md`.
 - Gradio demo is wired to `runner_from_env()` and defaults to the mock backend unless configured for Gemma 4.
 - Licensed CatFLW demo images are available in `data/demo_samples/` for UI examples; they are not pain-labeled.
 
+Temporary public demo: `https://0aa7a9e29bfaf3de84.gradio.live`
+
+This Gradio share link is temporary and depends on a local machine staying online;
+replace it with a stable hosted URL before final Kaggle submission.
+
 ## Quick Start
 
 Mock UI development:

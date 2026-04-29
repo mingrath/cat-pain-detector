@@ -117,7 +117,7 @@ Implementation should start simple and auditable instead of assuming an existing
 - [x] Improve UI for hackathon storytelling using `DESIGN.md`: trustworthy health feel, evidence cards, uncertainty display, and vet-safe next steps.
 - [x] Draft Kaggle writeup with architecture diagram, Gemma 4 usage, dataset/validation method, metrics, limitations, and impact story.
 - [x] Draft 3-minute video script focused on emotional story + measured validation + working demo + technical proof.
-- [ ] Deploy live demo publicly, likely Hugging Face Spaces or another GPU-backed endpoint, and keep Kaggle Notebook as a reproducible fallback. Deployment notes are drafted in `docs/deployment.md`; automatic HF Space creation is blocked until a Hugging Face token/account is configured.
+- [x] Deploy live demo publicly, likely Hugging Face Spaces or another GPU-backed endpoint, and keep Kaggle Notebook as a reproducible fallback. Temporary Gradio share with local Gemma 4 backend: `https://0aa7a9e29bfaf3de84.gradio.live`. Stable HF Space remains blocked until a Hugging Face token/account is configured; see `docs/deployment.md`.
 - [x] Publish public GitHub repo and attach it to Kaggle Writeup: https://github.com/mingrath/cat-pain-detector
 - [ ] Submit Kaggle Writeup before **May 18, 2026 at 23:59 UTC**. Remaining prerequisites: stable public live demo URL and recorded/public 3-minute video.
 
